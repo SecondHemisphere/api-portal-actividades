@@ -462,7 +462,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "PortalActividades.Data.Models.Organizer",
+        "Type": "ApiPortalActividades.DTOs.OrganizerDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

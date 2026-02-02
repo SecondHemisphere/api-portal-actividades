@@ -1,0 +1,11 @@
+# Visual Studio temporales
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+
+# Binarios
+bin/
+obj/

@@ -11,8 +11,7 @@
         public string? Department { get; set; }
         public string? Position { get; set; }
         public string? Bio { get; set; }
-
-        public List<string>? Shifts { get; set; }
-        public List<string>? WorkDays { get; set; }
+        public string? Shifts { get; set; }
+        public string? WorkDays { get; set; }
     };
 }

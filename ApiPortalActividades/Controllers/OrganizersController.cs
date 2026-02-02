@@ -3,10 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PortalActividades.Data.Contexts;
 using PortalActividades.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiPortalActividades.Controllers
 {
@@ -43,7 +39,6 @@ namespace ApiPortalActividades.Controllers
                     Email = o.User.Email,
                     Phone = o.User.Phone,
                     Active = o.User.Active,
-
                     Department = o.Department,
                     Position = o.Position,
                     Bio = o.Bio,
@@ -57,7 +52,7 @@ namespace ApiPortalActividades.Controllers
 
         // GET: api/Organizers/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Organizer>> GetOrganizer(int id)
+        public async Task<ActionResult<OrganizerDto>> GetOrganizer(int id)
         {
             var organizer = await _context.Organizers
                 .Include(o => o.User)
@@ -69,7 +64,6 @@ namespace ApiPortalActividades.Controllers
                     Email = o.User.Email,
                     Phone = o.User.Phone,
                     Active = o.User.Active,
-
                     Department = o.Department,
                     Position = o.Position,
                     Bio = o.Bio,
@@ -88,8 +82,9 @@ namespace ApiPortalActividades.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrganizer(int id, [FromBody] OrganizerUpdateDto dto)
         {
-            var organizer = await _context.Organizers.Include(o => o.User)
-                                                     .FirstOrDefaultAsync(o => o.UserId == id);
+            var organizer = await _context.Organizers
+                .Include(o => o.User)
+                .FirstOrDefaultAsync(o => o.UserId == id);
 
             if (organizer == null)
                 return NotFound(new { message = "Organizador no encontrado" });
@@ -111,19 +106,31 @@ namespace ApiPortalActividades.Controllers
                 bool emailExists = await _context.Users
                     .AnyAsync(u => u.Email.ToLower() == dto.Email.ToLower() && u.Id != user.Id);
                 if (emailExists)
-                    return BadRequest(new { Name = new[] { "Ya existe otro organizador con ese correo." } });
+                    return BadRequest(new { Email = new[] { "Ya existe otro organizador con ese correo." } });
 
                 user.Email = dto.Email;
             }
 
-            if (!string.IsNullOrWhiteSpace(dto.Phone)) user.Phone = dto.Phone;
-            if (dto.Active.HasValue) user.Active = dto.Active.Value;
+            if (!string.IsNullOrWhiteSpace(dto.Phone))
+                user.Phone = dto.Phone;
 
-            if (!string.IsNullOrWhiteSpace(dto.Department)) organizer.Department = dto.Department;
-            if (!string.IsNullOrWhiteSpace(dto.Position)) organizer.Position = dto.Position;
-            if (!string.IsNullOrWhiteSpace(dto.Bio)) organizer.Bio = dto.Bio;
-            if (!string.IsNullOrWhiteSpace(dto.Shifts)) organizer.Shifts = dto.Shifts;
-            if (!string.IsNullOrWhiteSpace(dto.WorkDays)) organizer.WorkDays = dto.WorkDays;
+            if (dto.Active.HasValue)
+                user.Active = dto.Active.Value;
+
+            if (!string.IsNullOrWhiteSpace(dto.Department))
+                organizer.Department = dto.Department;
+
+            if (!string.IsNullOrWhiteSpace(dto.Position))
+                organizer.Position = dto.Position;
+
+            if (!string.IsNullOrWhiteSpace(dto.Bio))
+                organizer.Bio = dto.Bio;
+
+            if (dto.Shifts != null)
+                organizer.Shifts = dto.Shifts;
+
+            if (dto.WorkDays != null)
+                organizer.WorkDays = dto.WorkDays;
 
             try
             {
@@ -144,14 +151,13 @@ namespace ApiPortalActividades.Controllers
         [HttpPost]
         public async Task<IActionResult> PostOrganizer([FromBody] OrganizerCreateDto dto)
         {
-            if (await _context.Users.AnyAsync(u => u.Email == dto.Email))
-                return BadRequest(new { Name = new[] { "Ya existe otro organizador con ese correo." } });
+            if (await _context.Users.AnyAsync(u => u.Email.ToLower() == dto.Email.ToLower()))
+                return BadRequest(new { Email = new[] { "Ya existe otro organizador con ese correo." } });
 
-            if (await _context.Users.AnyAsync(u => u.Name == dto.Name))
+            if (await _context.Users.AnyAsync(u => u.Name.ToLower() == dto.Name.ToLower()))
                 return BadRequest(new { Name = new[] { "Ya existe otro organizador con ese nombre." } });
 
             var plainPassword = dto.Name.Replace(" ", "").ToLower() + "123";
-
             var passwordHash = BCrypt.Net.BCrypt.HashPassword(plainPassword);
 
             var user = new User
@@ -173,8 +179,8 @@ namespace ApiPortalActividades.Controllers
                 Department = dto.Department,
                 Position = dto.Position,
                 Bio = dto.Bio,
-                Shifts = dto.Shifts != null ? string.Join(",", dto.Shifts) : null,
-                WorkDays = dto.WorkDays != null ? string.Join(",", dto.WorkDays) : null
+                Shifts = dto.Shifts,
+                WorkDays = dto.WorkDays
             };
 
             _context.Organizers.Add(organizer);
@@ -214,35 +220,26 @@ namespace ApiPortalActividades.Controllers
 
         // GET: api/Organizers/search
         [HttpGet("search")]
-        public async Task<ActionResult<IEnumerable<OrganizerDto>>> SearchOrganizers(
-            [FromQuery] OrganizerSearchDto filters)
+        public async Task<ActionResult<IEnumerable<OrganizerDto>>> SearchOrganizers([FromQuery] OrganizerSearchDto filters)
         {
             var query = _context.Organizers
                 .Include(o => o.User)
                 .Where(o => o.User.Active == true);
 
             if (!string.IsNullOrWhiteSpace(filters.Name))
-                query = query.Where(o =>
-                    o.User.Name.Contains(filters.Name));
+                query = query.Where(o => o.User.Name.Contains(filters.Name));
 
             if (!string.IsNullOrWhiteSpace(filters.Email))
-                query = query.Where(o =>
-                    o.User.Email.Contains(filters.Email));
+                query = query.Where(o => o.User.Email.Contains(filters.Email));
 
             if (!string.IsNullOrWhiteSpace(filters.Department))
-                query = query.Where(o =>
-                    o.Department != null &&
-                    o.Department.Contains(filters.Department));
+                query = query.Where(o => o.Department != null && o.Department.Contains(filters.Department));
 
             if (!string.IsNullOrWhiteSpace(filters.Position))
-                query = query.Where(o =>
-                    o.Position != null &&
-                    o.Position.Contains(filters.Position));
+                query = query.Where(o => o.Position != null && o.Position.Contains(filters.Position));
 
             if (!string.IsNullOrWhiteSpace(filters.Shift))
-                query = query.Where(o =>
-                    o.Shifts != null &&
-                    o.Shifts.Contains(filters.Shift));
+                query = query.Where(o => o.Shifts != null && o.Shifts.Contains(filters.Shift));
 
             var organizers = await query
                 .Select(o => new OrganizerDto
@@ -252,7 +249,6 @@ namespace ApiPortalActividades.Controllers
                     Email = o.User.Email,
                     Phone = o.User.Phone,
                     Active = o.User.Active,
-
                     Department = o.Department,
                     Position = o.Position,
                     Bio = o.Bio,

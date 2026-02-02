@@ -278,3 +278,4 @@ C:\Users\Usuario\source\repos\ApiPortalActividades\ApiPortalActividades\obj\Debu
 C:\Users\Usuario\source\repos\ApiPortalActividades\ApiPortalActividades\obj\Debug\net10.0\ApiPortalActividades.pdb
 C:\Users\Usuario\source\repos\ApiPortalActividades\ApiPortalActividades\obj\Debug\net10.0\ApiPortalActividades.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\ApiPortalActividades\ApiPortalActividades\obj\Debug\net10.0\ref\ApiPortalActividades.dll
+C:\Users\Usuario\source\repos\ApiPortalActividades\ApiPortalActividades\obj\Debug\net10.0\ApiPortalActividades.sourcelink.json

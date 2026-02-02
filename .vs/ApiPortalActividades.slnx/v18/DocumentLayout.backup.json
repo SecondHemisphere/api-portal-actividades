@@ -7,29 +7,29 @@
       "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\controllers\\organizerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|c:\\users\\usuario\\source\\repos\\apiportalactividades\\apiportalactividades\\dtos\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\dtos\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|c:\\users\\usuario\\source\\repos\\apiportalactividades\\apiportalactividades\\dtos\\organizerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\dtos\\organizerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|c:\\users\\usuario\\source\\repos\\apiportalactividades\\apiportalactividades\\dtos\\organizercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\dtos\\organizercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|c:\\users\\usuario\\source\\repos\\apiportalactividades\\apiportalactividades\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88F1A24C-A168-2F42-72BC-717F34EC62C3}|..\\PortalActividades.Data\\PortalActividades.Data\\PortalActividades.Data.csproj|c:\\users\\usuario\\source\\repos\\portalactividades.data\\portalactividades.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88F1A24C-A168-2F42-72BC-717F34EC62C3}|..\\PortalActividades.Data\\PortalActividades.Data\\PortalActividades.Data.csproj|c:\\users\\usuario\\source\\repos\\portalactividades.data\\portalactividades.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F1A24C-A168-2F42-72BC-717F34EC62C3}|..\\PortalActividades.Data\\PortalActividades.Data\\PortalActividades.Data.csproj|c:\\users\\usuario\\source\\repos\\portalactividades.data\\portalactividades.data\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|c:\\users\\usuario\\source\\repos\\apiportalactividades\\apiportalactividades\\dtos\\organizersearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\dtos\\organizersearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|c:\\users\\usuario\\source\\repos\\apiportalactividades\\apiportalactividades\\dtos\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF52E11-C135-5DBC-C50C-FCF06E971298}|ApiPortalActividades\\ApiPortalActividades.csproj|solutionrelative:apiportalactividades\\dtos\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88F1A24C-A168-2F42-72BC-717F34EC62C3}|..\\PortalActividades.Data\\PortalActividades.Data\\PortalActividades.Data.csproj|c:\\users\\usuario\\source\\repos\\portalactividades.data\\portalactividades.data\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88F1A24C-A168-2F42-72BC-717F34EC62C3}|..\\PortalActividades.Data\\PortalActividades.Data\\PortalActividades.Data.csproj|c:\\users\\usuario\\source\\repos\\portalactividades.data\\portalactividades.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88F1A24C-A168-2F42-72BC-717F34EC62C3}|..\\PortalActividades.Data\\PortalActividades.Data\\PortalActividades.Data.csproj|c:\\users\\usuario\\source\\repos\\portalactividades.data\\portalactividades.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,43 +39,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ApiPortalActividades\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ApiPortalActividades\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:15:55.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OrganizerUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerUpdateDto.cs",
               "RelativeDocumentMoniker": "ApiPortalActividades\\DTOs\\OrganizerUpdateDto.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerUpdateDto.cs",
               "RelativeToolTip": "ApiPortalActividades\\DTOs\\OrganizerUpdateDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T04:44:22.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "OrganizerDto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerDto.cs",
               "RelativeDocumentMoniker": "ApiPortalActividades\\DTOs\\OrganizerDto.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerDto.cs",
               "RelativeToolTip": "ApiPortalActividades\\DTOs\\OrganizerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T00:14:10.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Organizer.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PortalActividades.Data\\PortalActividades.Data\\Models\\Organizer.cs",
               "RelativeDocumentMoniker": "..\\PortalActividades.Data\\PortalActividades.Data\\Models\\Organizer.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\PortalActividades.Data\\PortalActividades.Data\\Models\\Organizer.cs",
               "RelativeToolTip": "..\\PortalActividades.Data\\PortalActividades.Data\\Models\\Organizer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T21:54:07.208Z",
               "EditorCaption": ""
@@ -88,14 +101,14 @@
               "RelativeDocumentMoniker": "ApiPortalActividades\\Controllers\\OrganizersController.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\Controllers\\OrganizersController.cs",
               "RelativeToolTip": "ApiPortalActividades\\Controllers\\OrganizersController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T21:51:16.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PortalActividades.Data\\PortalActividades.Data\\Models\\Category.cs",
               "RelativeDocumentMoniker": "..\\PortalActividades.Data\\PortalActividades.Data\\Models\\Category.cs",
@@ -108,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\PortalActividades.Data\\PortalActividades.Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "..\\PortalActividades.Data\\PortalActividades.Data\\Models\\User.cs",
@@ -116,25 +129,11 @@
               "RelativeToolTip": "..\\PortalActividades.Data\\PortalActividades.Data\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T23:35:35.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T23:35:35.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrganizerCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerCreateDto.cs",
-              "RelativeDocumentMoniker": "ApiPortalActividades\\DTOs\\OrganizerCreateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerCreateDto.cs",
-              "RelativeToolTip": "ApiPortalActividades\\DTOs\\OrganizerCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T01:30:00.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "OrganizerSearchDto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ApiPortalActividades\\ApiPortalActividades\\DTOs\\OrganizerSearchDto.cs",
               "RelativeDocumentMoniker": "ApiPortalActividades\\DTOs\\OrganizerSearchDto.cs",

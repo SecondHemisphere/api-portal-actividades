@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiPortalActividades")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af98a0122f158bef06fb74673c91a7f9acd666d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiPortalActividades")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiPortalActividades")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
