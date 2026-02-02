@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../PortalActividades.Data/PortalActividades.Data/PortalActividades.Data.csproj" />
+  <Project Path="ApiPortalActividades/ApiPortalActividades.csproj" />
+</Solution>

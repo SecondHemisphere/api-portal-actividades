@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\bin\Debug\net10.0\PortalActividades.Data.deps.json
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\bin\Debug\net10.0\PortalActividades.Data.runtimeconfig.json
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\bin\Debug\net10.0\PortalActividades.Data.dll
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\bin\Debug\net10.0\PortalActividades.Data.pdb
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.dll
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\refint\PortalActividades.Data.dll
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.pdb
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\PortalActividades.Data.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ApiPortalActividades\PortalActividades.Data\obj\Debug\net10.0\ref\PortalActividades.Data.dll
